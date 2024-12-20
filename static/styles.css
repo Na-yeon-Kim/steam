@@ -1,0 +1,37 @@
+/* 기존 스타일과 동일 */
+.gothic-a1-regular {
+    font-family: "Gothic A1", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+body {  
+    margin: 0;
+    font-family: 'Gothic A1', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box{
+    width: 500px;
+    height: 300px;
+    background-color: aliceblue;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: "Gothic A1", serif;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid #00a606;
+}
+header {
+    width: 100%;
+    background-color: #00a606;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 나머지 스타일은 동일 */
